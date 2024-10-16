@@ -1,0 +1,20 @@
+
+Assignment – 2
+
+  1) Which field of the Customers table is the primary key?
+  Solution - Cnum int(4) is the primary key for customers table.
+
+  2) What is the 4th column of the Customers table?
+  Solution- Rating is the 4th column of customer table.
+
+ 3) What is another word for row? For column?
+    Solution - Another word for row is tuple and another name for column is attributes.
+
+ 4) Why isn’t it possible to see the first five rows of a table?
+   Solution – It is possible to see the first five rows of a table by using the command :
+                  select * from CUSTOMERS limit 5;
+              But if the query we are  using to fetch the first five rows is incorrect or if the table is            
+              empty or has fewer than five rows or if we don’t have permissions to view the data in 
+              the table, then it isn’t possible to see the first five rows of table.
+
+
